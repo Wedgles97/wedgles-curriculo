@@ -10,7 +10,7 @@
   --text-color: #403A3A;
   --text-color-light: #707070;
   --container-color: #FAFAFA;
-  --container-color-alt: #F0EFEF;
+  --container-color-alt: #efeff0;
   --body-color: #FCFCFC;
 
   /*========== Font and typography ==========*/
@@ -100,6 +100,10 @@ body.scale-cv {
   display: none;
 }
 
+.scale-cv .home__title {
+  font-size: var(--h1-font-size);
+}
+
 .scale-cv .bd-container {
   max-width: 595px;
 }
@@ -109,7 +113,7 @@ body.scale-cv {
 }
 
 .scale-cv .section.title {
-  margim-bottom: .25rem;
+  margin-bottom: .25rem;
 }
 
 .scale-cv .resume__left,
@@ -130,7 +134,7 @@ body.scale-cv {
   gap: .75rem;
 }
 
-.scale-cv .home__adress,
+.scale-cv .home__address,
 .scale-cv .social__container {
   gap: .75rem;
 }
@@ -149,7 +153,7 @@ body.scale-cv {
 
 .scale-cv .education__line,
 .scale-cv .experience__time {
-  poadding-right: .5rem;
+  padding-right: .2rem;
 }
 
 .scale-cv .education__rounder,
@@ -163,10 +167,10 @@ body.scale-cv {
 .scale-cv .experience__line {
   width: 1px;
   height: 110%;
-  transform: translate(5px, 0);
+  transform: translate(4px, 0);
 }
 
-.scake-cv .education__data,
+.scale-cv .education__data,
 .scale-cv .experience__data {
   gap: .25rem;
 }
@@ -352,7 +356,7 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-.home__adress {
+.home__address {
   gap: 1rem;
 }
 
@@ -503,24 +507,6 @@ img {
   text-align: justify;
 }
 
-/*========== REFERENCES ==========*/
-/* .references__content {
-  gap: .25rem;
-}
-
-.references__subtitle {
-  color: var(--text-color);
-}
-
-.references__subtitle,
-.references__contact {
-  font-size: var(--smaller-font-size);
-}
-
-.references__title {
-  font-size: var(--h3-font-size);
-} */
-
 /*========== INTERESTS ==========*/
 .interests__container {
   grid-template-columns: repeat(3, 1fr);
@@ -633,26 +619,10 @@ img {
 
   .interests__container {
     grid-template-columns: repeat(4, max-content);
-    collum-gap: 3.5rem;
+    column-gap: 3.5rem;
   }
 
   .profile__description {
     text-align: justify;
   }
 }
-
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
